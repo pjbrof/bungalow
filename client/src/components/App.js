@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
-// import ReactDOM from "react-dom";
+import ReactDOM from "react-dom";
 import axios from "axios";
 import Dashboard from "./Dashboard";
-
-// import forecast from "./forecast.json";
 
 const App = () => {
   const [currentWX, setCurrentWX] = useState({});
@@ -21,6 +19,4 @@ const App = () => {
   return <Dashboard wx={currentWX} />;
 };
 
-// ReactDOM.hydrate(<App />, document.getElementById("app"));
-
-export default App;
+ReactDOM.render(<App />, document.getElementById("app"));
