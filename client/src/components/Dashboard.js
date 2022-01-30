@@ -16,7 +16,8 @@ const Temperature = styled.h1`
   font-weight: bold;
 `;
 
-const Dashboard = ({ wx }) => {
+const Dashboard = ({ wx, aqi }) => {
+  console.log("dash aqu", aqi);
   return (
     <>
       <div className="overview">
@@ -31,6 +32,8 @@ const Dashboard = ({ wx }) => {
           </span>
         </Temperature>
       </section>
+
+      <div className="aqi">AQI: {aqi?.AQI}</div>
       <div className="wind">
         <p>
           Wind: <Compass direction={wx.windDirection} />

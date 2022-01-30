@@ -1,0 +1,26 @@
+[
+  {
+    "DateObserved": "2021-10-04 ",
+    "HourObserved": 21,
+    "LocalTimeZone": "EST",
+    "ReportingArea": "Boston",
+    "StateCode": "MA",
+    "Latitude": 42.351,
+    "Longitude": -71.051,
+    "ParameterName": "O3",
+    "AQI": 17,
+    "Category": { "Number": 1, "Name": "Good" }
+  },
+  {
+    "DateObserved": "2021-10-04 ",
+    "HourObserved": 21,
+    "LocalTimeZone": "EST",
+    "ReportingArea": "Boston",
+    "StateCode": "MA",
+    "Latitude": 42.351,
+    "Longitude": -71.051,
+    "ParameterName": "PM2.5",
+    "AQI": 23,
+    "Category": { "Number": 1, "Name": "Good" }
+  }
+]
